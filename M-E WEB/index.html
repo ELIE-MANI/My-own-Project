@@ -4,18 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="assets/reset.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header>
+    <div> 
     <nav>
-      <a href="#">logo</a>
-      <a href="#">Our Services</a>
-      <a href="#">About Us</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Get Started</a>
+     <h2 class="logo">logo</h2>
+     <ul>
+     <li><a href="#">Our Services</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact Us</a></li>
+      </ul>
+      <button type="button">Get Started</button>
      </nav>
+    </div>
       <div class="hero-content">
        <h1>Create Your  Vision:
      Customized Innovative 
@@ -31,8 +36,8 @@
     <!-- hero section -->
      <section id="hero">
       <h2>Our Services</h2>
-      <div>
-        <div>
+      <div class="services">
+        <div class="planning">
           <h3>Planning</h3>
           <p>We provide comprehensive planning services <br>
              to ensure your project is well-structured and efficient.</p>
@@ -42,7 +47,7 @@
           <p>Our design team creates <br>
              innovative and functional designs tailored to your needs.</p>
         </div>
-        <div>
+        <div >
           <h3>Construction</h3>
           <p>We handle all aspects of construction,<br>
              ensuring quality and timely delivery.</p>
@@ -53,12 +58,7 @@
              to help you make informed decisions.</p>
         </div>
         </div>
-        <article>
-          <img src="pictures/5666.png" alt="exterior rendering">
-          <img src="pictures/Capture.png" alt="3D rendering">
-          <img src="pictures/22.png" alt="3D rendering">
-          <p>Build</p>
-        </article>
+       
      </section>
      <!-- second section -->
       <section>
@@ -81,7 +81,7 @@
           Tailored solutions business environment.</p>
           <button type="button">Learn More</button>
         </div>
-        <div>
+        <div >
           <h3>Renovation</h3>
           <p>Transform your space with innovative <br>
           design and expert craftmanship. Bringing <br>
@@ -111,7 +111,7 @@
         <button type="button">Our Work</button>
         </div>
         <div>
-          <img src="" alt="">
+          <img src="pictures/william-street-f-jSkITEMKA-unsplash.jpg" alt="Sustainable Building">
           <h3>Sustainable Building Projects</h3>
           <p>We are committed to sustainability and environmental responsibility. Our sustainable building projects <br>
              are designed to minimize environmental impact while maximizing energy efficiency and comfort.We use <br>
@@ -122,7 +122,7 @@
       </section>
       <!-- customers section -->
       <section>
-        <h2>Our Customers</h2>
+        <h2>Our <span>Customers</span></h2>
       </section>
      <!--Contact section  -->
     <section>
@@ -149,6 +149,7 @@
     </section>
    </main>
   <footer>
+    <section class="footer-content">
   <article>
     <h3>Building</h3>
     <p>Crafting spaces that inspire <br>
@@ -183,6 +184,7 @@
       <!-- logo -->
     </form>
   </article>
-  </footer>
+</section>  
+</footer>
 </body>
 </html>
