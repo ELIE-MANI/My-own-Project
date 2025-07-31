@@ -42,7 +42,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
 nav ul li a:hover {
@@ -52,10 +52,10 @@ nav ul li a:hover {
 button {
   border: none;
   background: #ff9d20;
-  padding: 13px 30px;
+  padding: 10px 20px;
   border-radius: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   transition: .4s;
 }
@@ -71,7 +71,12 @@ header {
 }
 .logo {
   color: white;
-  font-size: 28px;
-  text-align: center;
+  font-size: 20px;
+  position: relative;
+  right: 100px;
   
+}
+div nav button {
+  position: relative;
+  right: 100px;
 }
